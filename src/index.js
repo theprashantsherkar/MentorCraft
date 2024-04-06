@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import HeroSection from './Home/HeroSection';
 import reportWebVitals from './reportWebVitals';
+import SignIn from './SignIn/SignIn';
+import Footer from './Footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HeroSection />
+    <SignIn role = "mentee"/>
+    <Footer/>
   </React.StrictMode>
 );
 
