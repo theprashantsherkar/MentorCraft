@@ -110,7 +110,7 @@ export default function HeroSection() {
         </div>
         <div className="mx-auto max-w-5xl py-22 sm:py-48 lg:py-35">
           <div className=" sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 text-lg leading-6 text-white ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+            <div className="hidden sm:relative rounded-full sm:px-3 sm:text-lg sm:leading-6 sm:text-white ring-1 sm:ring-gray-900/10 sm:hover:ring-gray-900/20">
               Communication makes you perfect.{' '}
               <br/>
               <input
@@ -126,24 +126,24 @@ export default function HeroSection() {
               </a>
             </div>
           </div>
-          <div className="text-center">
-            <h1 className="text-l font-semi-bold text-white sm:text-6xl">
-              Get Advice and grow your <b><i>Network.</i></b>
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-white">
-            We connect high school students with mentors of top companies.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="#"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Get started
-              </a>
-              <a href="#" className="text-sm font-semibold leading-6 text-white">
-                Log in to mentor account<span aria-hidden="true">→</span>
-              </a>
-            </div>
+          <div className="text-center mt-8 pt-7 pb-9 ">
+                <h1 className="mt-6 mb-8 text-3xl font-semi-bold text-white sm:text-6xl">
+                Get Advice and grow your <b><i>Network.</i></b>
+                </h1>
+                <p className="mt-6 sm:text-lg leading-8 text-white text-sm">
+                We connect high school students with mentors of top companies.
+                </p>
+                <div className="mt-10 flex items-center justify-center gap-x-6">
+                <a
+                    href="#"
+                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                    Get started
+                </a>
+                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Log in to mentor account<span aria-hidden="true">→</span>
+                </a>
+                </div>
           </div>
         </div>
         <div

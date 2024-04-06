@@ -25,9 +25,9 @@ export default function SignIn(props) {
         */}
         <div id= 'signin' className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gray-900">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          <h1 className='text-white text-4xl font-bold text-center'>
+            <h1 className='text-white text-2xl sm:text-4xl font-bold text-center'>
                 Mentor<i>Craft</i>
-              </h1>
+            </h1>
             <h2 className="mt-10 text-center text-2xl font-bold leading-9 tracking-tight text-white">
               Log in to your {props.role} account
             </h2>
